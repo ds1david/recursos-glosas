@@ -1,0 +1,14 @@
+ERROR: 2018-08-06 14:17:50 Recursos.py __main__ <module> (linha:125) -- local variable 'logs_recursos' referenced before assignment
+Traceback (most recent call last):
+  File "Recursos.py", line 122, in <module>
+    app.EfetuarRecursos()
+  File "Recursos.py", line 102, in EfetuarRecursos
+    logs_recursos.append(log_recurso)
+UnboundLocalError: local variable 'logs_recursos' referenced before assignment
+ERROR: 2018-08-06 14:20:50 Recursos.py __main__ <module> (linha:125) -- local variable 'logs_recursos' referenced before assignment
+Traceback (most recent call last):
+  File "Recursos.py", line 122, in <module>
+    app.EfetuarRecursos()
+  File "Recursos.py", line 102, in EfetuarRecursos
+    logs_recursos.append(log_recurso)
+UnboundLocalError: local variable 'logs_recursos' referenced before assignment
